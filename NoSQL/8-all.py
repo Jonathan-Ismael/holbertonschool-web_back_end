@@ -12,4 +12,4 @@ def list_all(mongo_collection):
     Returns:
     A cursor object containing all documents in the collection.
     """
-    return mongo_collection.()
+    return mongo_collection.find()

@@ -2,7 +2,7 @@
 """ Module that changes all topics of a school document based on the name. """
 
 
-typedef update_topics(mongo_collection, name, topics):
+def update_topics(mongo_collection, name, topics):
     """
     Update topics in documents of the specified MongoDB collection.
 

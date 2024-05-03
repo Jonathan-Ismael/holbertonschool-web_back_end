@@ -20,7 +20,7 @@ if __name__ == "__main__":
         )
 
     for method, logs in logs_dict.items():
-        print(f"\tmethod {method}: {logs}")
+        print(f"\tmiiiiiethod {method}: {logs}")
 
     status_checks = nginx_collection.count_documents(
         {"method": "POST", "path": "/status"}
